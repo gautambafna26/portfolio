@@ -54,7 +54,7 @@ export const Nav = () => {
               Projects
             </button>
           </Link>
-          {/* <Link className="link" to="/blogs">
+          <Link className="link" to="/blogs">
             <button
               className="btn nav-btn"
               data-bs-toggle="collapse"
@@ -62,7 +62,7 @@ export const Nav = () => {
             >
               Blogs
             </button>
-          </Link> */}
+          </Link>
 
           <a className="btn nav-btn " href="/#Contact">
             <span

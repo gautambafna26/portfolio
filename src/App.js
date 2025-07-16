@@ -10,7 +10,7 @@ function App() {
       <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* <Route path="/blogs" element={<BlogPage />} /> */}
+        <Route path="/blogs" element={<BlogPage />} />
         <Route path="/projects" element={<ProjectPage />} />
       </Routes>
     </div>

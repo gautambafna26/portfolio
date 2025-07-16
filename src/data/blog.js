@@ -7,7 +7,7 @@ export const blogs = [
       "In this article, we will learn and practice frequency counter pattern questions...",
     date: "Jul 4, 2022",
     blogLink:
-      "https://Gautamjagdale21.hashnode.dev/frequency-counter-pattern-in-data-structures-and-algorithms-with-coding-exercises-and-solutions",
+      "https://ajinkyajagdale21.hashnode.dev/frequency-counter-pattern-in-data-structures-and-algorithms-with-coding-exercises-and-solutions",
   },
   {
     bId: ++id,
@@ -16,6 +16,6 @@ export const blogs = [
       "hello everyone , today 's topic in JavaScript is asynchronous JavaScript & event loop ......",
     date: "Sep 6, 2021",
     blogLink:
-      "https://Gautamjagdale21.hashnode.dev/asynchronous-javascript-and-event-loop",
+      "https://ajinkyajagdale21.hashnode.dev/asynchronous-javascript-and-event-loop",
   },
 ];

@@ -29,18 +29,20 @@ export const Home = () => {
           <h5 className="color-pal-3 p-2"> Creative Full-stack MERN/MEAN developer & developing responsive websites.</h5>
           <h5 className="mx-2">Skills :</h5>
           <div>
-            <span className="badge text-bg-light p-2 m-2 fs-6">Javascript(ES6+)</span>
+            <span className="badge text-bg-light p-2 m-2 fs-6">Javascript</span>
             <span className="badge text-bg-light p-2 m-2 fs-6">React JS</span>
+            <span className="badge text-bg-light p-2 m-2 fs-6">Angular JS</span>
+            <span className="badge text-bg-light p-2 m-2 fs-6">Express JS</span>
+            <span className="badge text-bg-light p-2 m-2 fs-6">Mongoose ODM</span>
+            <span className="badge text-bg-light p-2 m-2 fs-6">Node JS</span>
             <span className="badge text-bg-light p-2 m-2 fs-6">Docker</span>
+            <span className="badge text-bg-light p-2 m-2 fs-6">S3</span>
             <span className="badge text-bg-light p-2 m-2 fs-6">Git</span>
-            <span className="badge text-bg-light p-2 m-2 fs-6">Core Java</span>
-            <span className="badge text-bg-light p-2 m-2 fs-6">Python</span>
-            <span className="badge text-bg-light p-2 m-2 fs-6">Flask</span>
+            <span className="badge text-bg-light p-2 m-2 fs-6">C</span>
+            <span className="badge text-bg-light p-2 m-2 fs-6">C++</span>
             <span className="badge text-bg-light p-2 m-2 fs-6">Modern libraries and Frameworks</span>
             <span className="badge text-bg-light p-2 m-2 fs-6">HTML</span>
             <span className="badge text-bg-light p-2 m-2 fs-6">CSS</span>
-            <span className="badge text-bg-light p-2 m-2 fs-6">TailwindCSS</span>
-            <span className="badge text-bg-light p-2 m-2 fs-6"></span>
           </div>
         </div>
         {/*<img
@@ -69,40 +71,62 @@ export const Home = () => {
 
       <div className="section ">
         <h2 className="color-pal-4 fw-bolder" id="Work">
-          <span className="color-pal-1">01.</span> Where I've Worked
+          <span className="color-pal-1">02.</span> Where I've Worked
         </h2>
         <div className="pt-3">
           <p className="fs-5">
-            Software Engineer - Frontend <span className="color-pal-1 ">@Flairminds Software Pvt. Ltd.</span>
+            Senior Software Developer <span className="color-pal-1 ">@SPRY</span>
           </p>
-          <p className="color-pal-4">July 2023 - Present</p>
+          <p className="color-pal-4">Sept 2024 - Present</p>
           <ul className="color-pal-3">
-            <h5  className="color-pal-4 fw-bolder" style={{marginTop:"10px"}}>Construction Loan Management System:</h5>
-            <li>Developed end-to-end front-end architectureusingReact.jswith integrated Stripe-based subscription management and loan limitations. Built an LLM-powered UI for intelligent document interaction—users can upload files, chat withthemodel,ask questions, and export summaries as PDF s. Designed workflows for loan draw requests, including real-time chat, multi-role (Borrower, Inspector,Lender) management, and Excel-based team onboarding.</li>
-              <h5  className="color-pal-4 fw-bolder" style={{marginTop:"10px"}}>Employee Management System:</h5>
+            <li>Developed a physical therapy software solution using Angular 14, enabling dynamic forms, SOAP
+            note documentation, and eFax integration for clinics.</li>
             <li>
-             Enabled HR to add users/associates, define roles, andgrantspecificpermissions to employees. Developed a leave management system where users can applyfor leave, teamleads can approve requests, and automated email notifications are sent upon applicationandapproval.Implemented a streamlined deployment workflow using GitHub Actions, enabling seamless deploymentofchanges to Azure App Services upon Git push</li>
-            <h5  className="color-pal-4 fw-bolder" style={{marginTop:"10px"}}>Financial Calculator UI & Functionality Development </h5>
-            <li>
-               Functionality Development : Developed a dynamic financial calculatorwithfund flow, P&L, and borrowing base computations. Enabled graph-based visualizations, fileuploadsfordata-driven calculations, and drag-and-drop row management. Used React Flowto let usersvisuallyconnect nodes and send values to the backend.
+            Architected reusable UI components with Tailwind CSS.
             </li>
-            <h5  className="color-pal-4 fw-bolder" style={{marginTop:"10px"}}>Full-Stack Banking Application:</h5>
             <li>
-              Led the development of a React-based loan applicationsystemwith dynamic form builders, enabling banks to customize layouts and fields, resultingina40%reduction in form deployment time.
-            </li>
-            <h5  className="color-pal-4 fw-bolder" style={{marginTop:"10px"}}>AI-Powered (Nexla) Chat Platform</h5>
-            <li>
-             Built a responsive, ChatGPT/Claude-ai/CursorAI like UI withreal-timeWebSocket communication, PDF uploads, and interactive Q&A over company-wide datausingcustomtagging logic. Enabled users to explore interconnected enterprise data, view flowdiagrams, andanalyzetrends using React-based charts; supported multiple modes for better UX. Integrated LLMs toallowdata-driven answers across the organization's documents. Designed scalable architecture to handlelargefiles,structured data, and real-time responses.
+            Leveraged RxJS for efficient state management and asynchronous data flow, streamlining clinic
+            workflows.
             </li>
           </ul>
         </div>
         <div className="pt-3">
           <p className="fs-5">
-            Data Science Internship <span className="color-pal-1 ">@Verzeo</span>
+            Software Engineer - Frontend <span className="color-pal-1 ">@Flairminds Software Pvt. Ltd.</span>
           </p>
-          <p className="color-pal-4">July 2021 - Aug 2022</p>
+          <p className="color-pal-4">Oct 2022 - Aug 2024</p>
           <ul className="color-pal-3">
-            <li>Worked on data visualization, data cleaning, and prepossessing to improve data quality and insights. Implementedvariousmachine learning algorithms for data analysis and predictive modeling. Analyzed large datasets, identified patterns, andgeneratedinteractive visualizations for better decision-making.</li>
+            <li>Managed 7+ projects to success through coding, documentation (SRS, POCs), and system design.</li>
+            <li>
+              Delivered AI-powered React app: Built a full-stack solution with text-to-speech, speech recognition, and photo recognition features using React, Material UI, and
+              Redux, optimizing performance (15% faster page load, 20% more concurrent users).
+            </li>
+            <li>
+              Crypto tax tracking dashboard: Developed a secure NextJS app with Auth0 authentication, providing clear tax overviews, Lottie animations, and skeleton loading for a
+              smooth user experience.
+            </li>
+            <li>
+              Carbon emissions tracking app: Created a React app that calculates and reports carbon emissions via utilising various scopes using AI Flask APIs, reducing companies'
+              emissions by an average of 22%.
+            </li>
+            <li>
+              Data migration application: Constructed a full-stack (React/Node.js) application for seamless data transfer, dynamic mapping and transformation capabilities for
+              extracted data from various databases.
+            </li>
+            <li>
+              Angular project: Integrated Firebase Auth for security and utilized Node.js/Express API and Firestore for a scalable backend. Ensured code reliability with
+              TypeScript.
+            </li>
+          </ul>
+        </div>
+        <div className="pt-3">
+          <p className="fs-5">
+            Frontend Developer Intern <span className="color-pal-1 ">@OhLocal ( A Product of O2O Mavericks Pvt. Ltd. )</span>
+          </p>
+          <p className="color-pal-4">Nov 2021 - Mar 2022</p>
+          <ul className="color-pal-3">
+            <li>Developed a high-performing React.js blog application with Firebase authentication and integrated Google Analytics for tracking user behavior .</li>
+            <li>Optimized web app for SEO, resulting in good rankings for specific keywords .</li>
           </ul>
         </div>
       </div>
@@ -115,7 +139,7 @@ export const Home = () => {
           <button className="btn link-btn">Browse Projects</button>
         </Link>
       </div>
-      {/* <div className="section">
+      <div className="section">
         <h2 className="color-pal-4 fw-bolder creative-header">
           <span className="color-pal-1 ">04.</span> Blogs
         </h2>
@@ -123,22 +147,22 @@ export const Home = () => {
         <Link className="link" to="/blogs">
           <button className="btn link-btn">My Blogs</button>
         </Link>
-      </div> */}
+      </div>
       <div className="section text-center " style={{ marginBottom: "2rem" }} id="Contact">
         <h2 className="color-pal-4 fw-bold "> Get In Touch</h2>
-        <a className="btn soc-btn" href="https://www.linkedin.com/in/gautam-bafna-49b879165/" target="_blank" rel="noopener noreferrer">
+        <a className="btn soc-btn" href="https://www.linkedin.com/in/ajinkya-h-jagadale-78a899200" target="_blank" rel="noopener noreferrer">
           <LinkedInIcon />
         </a>
-        <a className="btn soc-btn" href="https://github.com/gautambafna26" target="_blank" rel="noopener noreferrer">
+        <a className="btn soc-btn" href="https://github.com/ajinkyajagdale21" target="_blank" rel="noopener noreferrer">
           <GitHubIcon />
         </a>
-        <a className="btn soc-btn" href="https://www.instagram.com/gautambafna26?igsh=OWgwOGQxaHdzMzY2" target="_blank" rel="noopener noreferrer">
+        <a className="btn soc-btn" href="https://instagram.com/ajinkyajagdale21" target="_blank" rel="noopener noreferrer">
           <InstagramIcon />
         </a>
-        {/* <a className="btn soc-btn" href="https://twitter.com/Gautam_J_21" target="_blank" rel="noopener noreferrer">
+        <a className="btn soc-btn" href="https://twitter.com/Ajinkya_J_21" target="_blank" rel="noopener noreferrer">
           <TwitterIcon />
-        </a> */}
-        <button className="btn soc-btn" onClick={() => (window.location = "mailto:bafnagautam26@gmail.com")}>
+        </a>
+        <button className="btn soc-btn" onClick={() => (window.location = "mailto:ajinkyajagdale21@gmail.com")}>
           <EmailIcon />
         </button>
       </div>
