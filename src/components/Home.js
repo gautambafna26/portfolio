@@ -26,7 +26,7 @@ export const Home = () => {
             <span className="color-pal-1 ">01.</span> About Me
           </h2>
 
-          <h5 className="color-pal-3 p-2"> Creative Full-stack MERN/MEAN developer & developing responsive websites.</h5>
+          {/* <h5 className="color-pal-3 p-2"> Creative Full-stack MERN/MEAN developer & developing responsive websites.</h5> */}
           <h5 className="mx-2">Skills :</h5>
           <div>
             <span className="badge text-bg-light p-2 m-2 fs-6">Javascript(ES6+)</span>
@@ -40,7 +40,7 @@ export const Home = () => {
             <span className="badge text-bg-light p-2 m-2 fs-6">HTML</span>
             <span className="badge text-bg-light p-2 m-2 fs-6">CSS</span>
             <span className="badge text-bg-light p-2 m-2 fs-6">TailwindCSS</span>
-            <span className="badge text-bg-light p-2 m-2 fs-6"></span>
+            <span className="badge text-bg-light p-2 m-2 fs-6">Twilio</span>
           </div>
         </div>
         {/*<img

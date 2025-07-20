@@ -18,11 +18,23 @@ export const projects = [
     projectName: "SwiftGPT",
     ProjectCategorie: "Open AI integrated App",
     ProjectDetails: "Our Q/A React application, uses advanced algorithms to provide you with accurate answers to your questions in seconds",
-    liveLink: "https://swift-gpt.vercel.app/",
-    repo: "https://github.com/ajinkyajagdale21/swiftGPT",
+    liveLink: "https://swift-gpt-chi.vercel.app/",
+    repo: "https://github.com/gautambafna26/swiftGPT",
     TechStack: ["Open AI","ReactJs", "Auth 0","Tailwind CSS"],
   },
  
+
+   {
+    pid: ++id,
+    image:
+      "https://cdn.pixabay.com/photo/2018/03/14/01/03/subscribe-3224137_960_720.jpg",
+    projectName: "Employee Management System",
+    ProjectCategorie: "HR & Operations Web App",
+     ProjectDetails: "A full-featured employee management system built with React and Auth0, enabling HR teams to manage employee data, roles, leaves, and performance efficiently.",
+    liveLink: "https://hrms.flairminds.com/",
+    repo: "",
+    TechStack: ["ReactJs", "Flask"],
+  },
   
   {
     pid: ++id,
@@ -31,7 +43,7 @@ export const projects = [
     projectName: "Reaction game",
     ProjectCategorie: "Web Game",
     liveLink: "https://aj21-reaction-game.netlify.app/",
-    repo: "https://github.com/ajinkyajagdale21/reaction-game",
+    repo: "",
     ProjectDetails: "Reaction game webApp Made Using",
     TechStack: ["ReactJS"],
   },
@@ -42,7 +54,7 @@ export const projects = [
     projectName: "Calculate IT",
     ProjectCategorie: "Calculator app",
     liveLink: "https://aj21-calculator.netlify.app/",
-    repo: "https://github.com/ajinkyajagdale21/calculator/tree/main/src",
+    repo: "",
     ProjectDetails: "calculator webApp Made Using",
     TechStack: ["ReactJS"],
   },
